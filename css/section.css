@@ -1,0 +1,108 @@
+.section {
+    max-witdh: 600px,
+    padding: 20px;
+    padding-top: 20px;
+    box-shadow: 2px 2px 8px #ccc;
+    margin: 44px, auto;
+}
+
+.section--dark {
+    background: teal;
+}
+
+.section__header {
+    color: teal;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.section--dark .section__paragraph {
+    color: aliceblue;
+}
+
+.section__paragraph {
+    color: #777;
+    margin: 20px;
+    padding: 15px;
+}
+
+.section__paragraph--highlighted {
+    color: teal;
+    font-style: ital ic;
+    padding-bottom: 30px;
+}
+
+.section__bold {
+    font-weight: bold;
+    padding: 45px;
+    margin-left: 20px;
+}
+
+.section__list {
+    line-height: 2;
+    padding: 10px;
+    margin: 40px;
+    text-decoration: none;
+}
+
+.section__listItem {
+    font-family: montserrat;
+}
+
+.section__theme {
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.section__image {
+    width: 130px;
+    height: 200px;
+    margin-top: 20px;
+    max-width: 100%;
+    padding: 10px auto;
+    margin-left: 20px;
+    padding-inline-end: 20px;
+    padding-bottom: 10px;
+}
+
+.section__image--enya {
+    width: 200px;
+    height: 220px;
+    display: block;
+    max-width: 100%;
+    margin-left: 20px;
+    padding-inline-end: 20px;
+    padding-bottom: 10px;
+}
+
+.section__image--winter {
+    width: 200px;
+    height: 200px;
+    max-width: 100%;
+    display: block;
+    margin-left: 20px;
+    padding-inline-end: 20px;
+    padding-bottom: 10px
+}
+
+.section__fact {
+    max-width: 1000px;
+    height: auto;
+    border: black;
+    border-style: groove;
+    background: hsl(180, 48%, 56%);
+    padding: 10px;
+    margin: 20px 20;
+    display: block;
+}
+
+.section__image--vega {
+    width: 150px;
+    height: 200px;
+    max-width: 100%;
+    margin-left: 20px;
+    padding-inline-end: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
