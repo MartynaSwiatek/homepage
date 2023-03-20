@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    overflow-x: auto;
 }
 
 *, ::after, ::before {
@@ -13,6 +14,9 @@ html {
 }
 
 .body {
+    display: flexbox;
+    flex: auto;
+    justify-content: center;
     background-color: hsl(0, 0%, 100%);
     font-family: 'Lato', sans-serif;
     font-size: 20px;
