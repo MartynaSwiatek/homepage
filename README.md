@@ -1,5 +1,7 @@
 # Homepage about weimaraners
 
+![weimaraner](https://github.com/MartynaSwiatek/homepage/blob/main/images/background.jpg?raw=true)
+
 ## Demo
 
 https://martynaswiatek.github.io/homepage/
