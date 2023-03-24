@@ -1,10 +1,10 @@
 .section {
     flex: auto;
-    max-witdh: 600px,
+    max-width: 100%;
     padding: 20px;
     padding-top: 20px;
     box-shadow: 2px 2px 8px #ccc;
-    margin: 44px, auto;
+    margin: 45px, 30px;
 }
 
 .section--dark {
@@ -32,7 +32,8 @@
     font-style: ital ic;
     padding-bottom: 30px;
     text-transform: uppercase;
-    flex-grow: 1;
+    text-align:left;
+    text-overflow: inherit;
 }
 
 .section__bold {
