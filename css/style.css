@@ -15,19 +15,20 @@ html {
 
 .body {
     display: flexbox;
-    flex: auto;
     justify-content: center;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 94%);
     font-family: 'Lato', sans-serif;
     font-size: 20px;
     line-height: 1.5;
     text-indent: 40px;
     padding: 50px;
-    margin: 0 auto;   
+    margin: auto;   
     background-image: url("../images/background.jpg");
-    background-size: 350px 340px;
+    background-size: 400px 340px;
     background-repeat: no-repeat;
     background-position:top center;
+    resize: both;
+    overflow: auto;
   }
 
 .button {
@@ -42,7 +43,7 @@ html {
 
 .dark {
     color: #030303;
-    background-color: rgb(188, 226, 241)
+    background-color: rgb(211, 236, 246)
 }
 
 .table__caption {
