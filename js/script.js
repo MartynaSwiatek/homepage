@@ -1,12 +1,18 @@
-
-
-let button = document.querySelector(".js-button");
-let body = document.querySelector(".js-body");
-let themeName = document.querySelector(".js-themeName");
-
-button.addEventListener("click", () => {
-    body.classList.toggle("dark");
-
-    themeName.innerText = body.classList.contains("dark") 
-    ? "białe" : "niebieskie";
-});
+{
+    const welcome = () => {
+        console.log("witaj nastronie wyżła weimarskiego")
+    }
+    welcome()
+    
+    const button = document.querySelector(".js-button");
+    const body = document.querySelector(".js-body");
+    const themeName = document.querySelector(".js-themeName");
+    
+    const onChangeBackgroundCLick = () => {
+        body.classList.toggle("dark");
+         themeName.innerText = body.classList.contains("dark") 
+        ? "białe" : "niebieskie";
+    };
+    
+    button.addEventListener("click", onChangeBackgroundCLick);
+    }
